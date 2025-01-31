@@ -1,12 +1,13 @@
 import './App.css'
-import SimpleForm from './componets/SimpleForm/SimpleForm'
+import StatefulForm from './componets/SimpleForm/StatefulForm/StatefulForm'
+//import SimpleForm from './componets/SimpleForm/SimpleForm'
 function App() {
   
   return (
     <>
       
       <h1>Tern with VITE and REACT</h1>
-      <SimpleForm></SimpleForm>
+     <StatefulForm></StatefulForm>
       
     </>
   )
