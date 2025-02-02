@@ -1,7 +1,8 @@
 import './App.css'
 //import StatefulForm from './componets/SimpleForm/StatefulForm/StatefulForm'
 //import SimpleForm from './componets/SimpleForm/SimpleForm'
-import RefForm from './RefForm/RefForm'
+//import RefForm from './RefForm/RefForm'
+import HookForm from './componets/HollkForm/HookForm'
 function App() {
   
   return (
@@ -10,7 +11,8 @@ function App() {
       <h1>Tern with VITE and REACT</h1>
      {/* <StatefulForm></StatefulForm> */}
 
-     <RefForm></RefForm>
+     {/* <RefForm></RefForm> */}
+     <HookForm></HookForm>
       
     </>
   )
